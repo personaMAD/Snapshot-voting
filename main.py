@@ -16,7 +16,7 @@ import random
 from config import seed, passwd, chainid, currency, rpc, network
 
 #Пишем путь до crx файла метамаска (с scuttleGlobalThis = false)
-EXTENSION_PATH = 'C:/Users/Artemius/AppData/Local/Google/Chrome/User Data/Profile 13/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/11.4.1_0.crx'
+EXTENSION_PATH = ''
 
 def scroll(driver, px_down=180):
     ActionChains(driver) \
